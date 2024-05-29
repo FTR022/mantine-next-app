@@ -24,6 +24,10 @@ export function HeroImageRight() {
               Build fully functional accessible web applications with ease – Mantine includes more
               than 100 customizable components and hooks to cover you in any situation
             </Text>
+            <Text className="mt-8 text-white max-w-md max-md:max-w-full opacity-75">
+              Build fully functional accessible web applications with ease – Mantine includes more
+              than 100 customizable components and hooks to cover you in any situation
+            </Text>
 
             <Button
               variant="gradient"

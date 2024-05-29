@@ -1,0 +1,17 @@
+/* The last layer overrides the preceding ones */
+@layer tailwind, mantine, app;
+
+@import '@mantine/core/styles.layer.css';
+
+@layer tailwind {
+  /* @tailwind base; */
+  @tailwind components;
+  @tailwind utilities;
+}
+
+@layer app {
+  a {
+    color: #00defb;
+    text-decoration: none;
+  }
+}
